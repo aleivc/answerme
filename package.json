@@ -1,6 +1,6 @@
 {
   "name": "answerme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "answer me",
   "main": "bin/index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/aleivc/answerme.git"
   },
-  "keywords": [],
+  "keywords": [
+    "random",
+    "quotation",
+    "commander"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
