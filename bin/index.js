@@ -9,7 +9,7 @@ const Index = () => {
   const options = program.opts();
 
   if (options.version) {
-    console.log('v1.0.0')
+    console.log('v1.0.2')
   } else {
     axios
       .get('https://api.66mz8.com/api/quotation.php?format=json')
@@ -20,5 +20,3 @@ const Index = () => {
 }
 
 module.exports = Index
-
-// https://api.66mz8.com/api/quotation.php?format=json
