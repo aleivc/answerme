@@ -12,14 +12,15 @@ const Index = () => {
   if (options.version) {
     console.log(packageJson.version)
   } else {
-    axios
-      .get('https://api.66mz8.com/api/quotation.php?format=json')
-      .then(res => {
-        console.log(res.data.quotation)
-      })
-      .catch(err => {
-        console.log('something wrong!!! check out network')
-      })
+    // axios
+    //   .get('https://api.66mz8.com/api/quotation.php?format=json')
+    //   .then(res => {
+    //     console.log(res.data.quotation)
+    //   })
+    //   .catch(err => {
+    //     console.log('something wrong!!! check out network')
+    //   })
+    console.log('wait a second, the source dismissed.')
   }
 }
 
